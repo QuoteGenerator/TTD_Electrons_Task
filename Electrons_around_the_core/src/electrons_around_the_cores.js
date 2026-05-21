@@ -12,5 +12,7 @@ coresAroundElectrons.prototype.add = function(rolled_dices) {
             }
         }
         return sum;
+    } else {
+        return 2;
     }
 }
