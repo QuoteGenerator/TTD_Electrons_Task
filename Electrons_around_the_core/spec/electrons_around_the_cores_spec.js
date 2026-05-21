@@ -3,7 +3,7 @@ describe('Find Electrons', function() {
 		findCores = new coresAroundElectrons();
 	});
 
-	it('should return 0 for an empty string', function() {
-		expect(findCores.add('')).toEqual(0);
+	it('should return "NO ROLLED DICES" for an empty Array', function() {
+		expect(findCores.add([])).toEqual("NO ROLLED DICES");
 	});
 });
