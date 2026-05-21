@@ -4,6 +4,7 @@ coresAroundElectrons.prototype.add = function(rolled_dices) {
         return "NO ROLLED DICES";
     } else if (rolled_dices.length < 4){
         return "NEEDS ATLEAST 4 ROLLED DICES";
-    } 
-    return "6";
+    } else {
+        return "6";
+    }
 };
